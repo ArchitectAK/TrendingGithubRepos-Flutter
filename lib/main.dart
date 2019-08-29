@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'ListViews',
+      title: 'Trending Repos',
       theme: ThemeData(
         primarySwatch: Colors.teal,
       ),
