@@ -9,8 +9,8 @@ class Repo {
   final String description;
   final String language;
   final String languageColor;
-  final String stars;
-  final String forks;
+  final int stars;
+  final int forks;
 
   const Repo({
     @required this.author,
@@ -28,6 +28,7 @@ class Repo {
     return Repo(
       author: json['author'],
       name: json['name'],
+      url: json['url'],
       avatar: json['avatar'],
       description: json['description'],
       language: json['language'],
