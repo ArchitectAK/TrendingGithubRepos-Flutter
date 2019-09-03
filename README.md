@@ -9,6 +9,6 @@ Mastering Flutter ListView and CardView with real example
 
 ## This code is available for other platforms as well.
 
-- Android Native (Kotlin) [here](https://github.com/AnkitDroidGit/TrendingGithubRepos-Android)
-- Flutter is [here](https://github.com/AnkitDroidGit/TrendingGithubRepos-Flutter)
+- Android Native (Kotlin) is [here](https://github.com/AnkitDroidGit/TrendingGithubRepos-Android)
+- React Native (Android and iOS) is [here](https://github.com/AnkitDroidGit/TrendingGithubRepos-ReactNative)
 
