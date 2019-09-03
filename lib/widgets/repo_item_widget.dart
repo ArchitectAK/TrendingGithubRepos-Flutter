@@ -12,16 +12,37 @@ class RepoItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-        child: Card(
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(14),
-          ),
-          elevation: 4,
-          margin: EdgeInsets.all(8),
-          child: Card(
-
-          ),
-        )
+      child: Card(
+        elevation: 4,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(4),
+        ),
+        margin: new EdgeInsets.all(5.0),
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            Column(
+//              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Image.network(repo.avatar, width: 100, height: 140),
+              ],
+            ),
+            Column(
+//              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(2.0, 2.0, 2.0, 2.0),
+                  child: Text(
+                    repo.name,
+                    style:
+                        TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

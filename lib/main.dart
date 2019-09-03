@@ -65,10 +65,10 @@ class _MyListScreenState extends State {
             itemCount: repoList.length,
             itemBuilder: (context, position) {
               final repoItem= repoList[position];
-              return ListTile(title: Text(repoItem.name));
-//              return RepoItem(
-//                repo: repoItem,
-//              );
+//              return ListTile(title: Text(repoItem.name));
+              return RepoItem(
+                repo: repoItem,
+              );
             },
           ),
         ));
