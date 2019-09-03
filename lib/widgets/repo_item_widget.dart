@@ -17,25 +17,32 @@ class RepoItem extends StatelessWidget {
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(4),
         ),
-        margin: new EdgeInsets.all(5.0),
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Column(
-//              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: MainAxisSize.max,
               children: <Widget>[
-                Image.network(repo.avatar, width: 100, height: 140),
+                Image.network(repo.avatar, width: 110, height: 100),
               ],
             ),
             Column(
-//              crossAxisAlignment: CrossAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: <Widget>[
                 Padding(
-                  padding: const EdgeInsets.fromLTRB(2.0, 2.0, 2.0, 2.0),
+                  padding: const EdgeInsets.fromLTRB(12.0, 2.0, 2.0, 2.0),
+                  child: Text(
+                    repo.author,
+                    style: TextStyle(fontSize: 18.0),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(12.0, 6.0, 2.0, 2.0),
                   child: Text(
                     repo.name,
                     style:
-                        TextStyle(fontSize: 22.0, fontWeight: FontWeight.bold),
+                        TextStyle(fontSize: 18.0, fontWeight: FontWeight.bold),
                   ),
                 ),
               ],
