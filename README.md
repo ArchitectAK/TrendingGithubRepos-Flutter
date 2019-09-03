@@ -1,16 +1,14 @@
-# trending_repo_flutter
+# TrendingGithubRepo Flutter app
 
-A new Flutter application.
+Mastering Flutter ListView and CardView with real example
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+![](https://raw.githubusercontent.com/AnkitDroidGit/TrendingGithubRepos-Flutter/master/screencap.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## This code is available for other platforms as well.
+
+- React Native [here](https://github.com/AnkitDroidGit/TrendingGithubRepos-Android)
+- Flutter is [here](https://github.com/AnkitDroidGit/TrendingGithubRepos-Flutter)
+
